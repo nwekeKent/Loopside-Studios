@@ -71,8 +71,8 @@ nav .nav-link a{
  .main-content{
     
     border: 1px solid hsl(0, 0%, 100%);
-    width: 300px;
-    padding: 30px 20px;
+    width: 330px;
+    padding: 30px 30px;
    
 
     
@@ -92,7 +92,7 @@ nav .nav-link a{
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: hsl(0, 0%, 0%);
     color: white;
@@ -101,6 +101,9 @@ nav .nav-link a{
     z-index: 2;
 }
 
+.nav-close{
+    margin-top:8px;
+}
 
 
 .mobile-menu .top-div{
@@ -126,8 +129,177 @@ nav .nav-link a{
     
     
 }
+.section{
+    display: flex;
+    flex-direction: column;
+     margin: 30% 20px 20% 20px;
+}
+.vr-div{
+    display: flex;
+    flex-direction: column;
+    font-family: "josefin sans", sans-serif;
+    text-align: center;
+}
 
+.vr-div .vr-text{
+    padding: 0 20px;
+}
 
+    .vr-div .vr-text h1{
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 600;
+           
+    }
+    .vr-div .vr-text p{
+        margin-top: 20px;
+        font-family: "josefin sans", sans-serif;
+        font-weight: bolder;
+        font-size: 17px;
+        color:  hsl(0, 0%, 0%);
+        opacity: 0.75;
+        line-height:1.5rem;
+    
+    }
+.vr-div img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.creation-div{
+    margin-top: 25%;
+}
+.creation-text h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "josefin sans", sans-serif;
+    text-align: center;
+   
+}
+.btn-div-m{
+    text-align:center;
+    margin-top: 50px;
+}
+.see-all{
+    text-transform: uppercase;
+    padding: 10px 35px;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid  hsl(0, 0%, 0%);
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 600;
+}
+.creation-text .see-all-d{
+    display: none;
+}
+
+.creation-images{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:25px;
+    margin-top:10%;
+}
+
+.creation-images-div{
+            width: 100%;
+            height: 150px; 
+            color: hsl(0, 0%, 100%);
+            position: relative;
+        }
+
+.creation-images-div.one{
+            background: url(/images/mobile/image-deep-earth.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+    }
+
+    
+.creation-images-div.two{
+    background: url(/images/mobile/image-night-arcade.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+   
+.creation-images-div.three{
+    background: url(/images/mobile/image-soccer-team.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.creation-images-div.four{
+    background: url(/images/mobile/image-grid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.five{
+    background: url(/images/mobile/image-from-above.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.six{
+    background: url(/images/mobile/image-pocket-borealis.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.seven{
+    background: url(/images/mobile/image-curiosity.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.eight{
+    background: url(/images/mobile/image-fisheye.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ .creation-images-div h1{
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: lighter;
+            font-family: "josefin sans", sans-serif;
+            position:absolute;
+            bottom: 20px;
+            left: 20px;
+           
+        }
+.footer{
+    background-color:hsl(0,0%,0%);
+    color:hsl(0,0%,100%) ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .nav-list{
+    text-align: center;
+    margin-top:20px;
+}
+
+.footer .nav-list .nav-link a{
+    text-transform: capitalize;
+    color:  hsl(0, 0%, 100%);
+    font-family: 'josefin sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+    
+    
+    
+}
+    
 @media screen and (min-width: 500px) {
     
     .main{
@@ -311,7 +483,7 @@ nav .nav-link a{
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: hsl(0, 0%, 0%);
     color: white;
@@ -326,7 +498,7 @@ nav .nav-link a{
     
 }
 .mobile-menu .nav-list{
-    margin-top:50%;
+    margin-top:30%;
 
     
 }
