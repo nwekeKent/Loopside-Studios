@@ -180,7 +180,9 @@ nav .nav-link a{
 .btn-div-m{
     text-align:center;
     margin-top: 50px;
+    
 }
+
 .see-all{
     text-transform: uppercase;
     padding: 10px 35px;
@@ -193,6 +195,7 @@ nav .nav-link a{
 .creation-text .see-all-d{
     display: none;
 }
+
 
 .creation-images{
     display: grid;
@@ -282,10 +285,13 @@ nav .nav-link a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'alata' , sans-serif;
+    padding: 60px 0;
 }
 .footer .nav-list{
     text-align: center;
-    margin-top:20px;
+    margin-top:30px;
+
 }
 
 .footer .nav-list .nav-link a{
@@ -294,12 +300,29 @@ nav .nav-link a{
     font-family: 'josefin sans', sans-serif;
     font-size: 18px;
     font-weight: lighter;
-    margin-bottom: 1px;
+    margin-bottom: 20px;
+    display: block;
     
     
     
 }
-    
+
+.footer-icons{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+.footer-icons i{
+    margin-right: 10px;
+}
+.footer-copyright{
+    color: hsl(0, 0%, 100%);
+    opacity: 0.6;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'alata',sans-serif;
+}
 @media screen and (min-width: 500px) {
     
     .main{
@@ -515,4 +538,156 @@ nav .nav-link a{
     
     
 }
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+     margin: 30% 10% 20% 10%;
+}
+.vr-div{
+    display: flex;
+    flex-direction: column;
+    font-family: "josefin sans", sans-serif;
+    text-align: center;
+}
+
+.vr-div .vr-text{
+    padding: 0 20px;
+}
+
+    .vr-div .vr-text h1{
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 600;
+           
+    }
+    .vr-div .vr-text p{
+        margin-top: 20px;
+        font-family: "josefin sans", sans-serif;
+        font-weight: bolder;
+        font-size: 17px;
+        color:  hsl(0, 0%, 0%);
+        opacity: 0.75;
+        line-height:1.5rem;
+    
+    }
+.vr-div img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.creation-div{
+    margin-top: 25%;
+}
+.creation-text h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "josefin sans", sans-serif;
+    text-align: center;
+   
+}
+.btn-div-m{
+    text-align:center;
+    margin-top: 50px;
+    
+}
+
+.see-all{
+    text-transform: uppercase;
+    padding: 10px 35px;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid  hsl(0, 0%, 0%);
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 600;
+}
+.creation-text .see-all-d{
+    display: none;
+}
+
+
+
+.creation-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:25px;
+    margin-top:30px;
+}
+
+.creation-images-div{
+            width: 100%;
+            height: 450px; 
+            color: hsl(0, 0%, 100%);
+            position: relative;
+        }
+
+.creation-images-div.one{
+            background: url(/images/desktop/image-deep-earth.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+    }
+
+    
+.creation-images-div.two{
+    background: url(/images/desktop/image-night-arcade.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+   
+.creation-images-div.three{
+    background: url(/images/desktop/image-soccer-team.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.creation-images-div.four{
+    background: url(/images/desktop/image-grid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.five{
+    background: url(/images/desktop/image-from-above.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.six{
+    background: url(/images/desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.seven{
+    background: url(/images/desktop/image-curiosity.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.creation-images-div.eight{
+    background: url(/images/desktop/image-fisheye.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ .creation-images-div h1{
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: lighter;
+            font-family: "josefin sans", sans-serif;
+            position:absolute;
+            bottom: 20px;
+            left: 20px;
+           
+        }
 }
