@@ -757,7 +757,7 @@ nav .nav-link a{
     text-transform: capitalize;
     color:  hsl(0, 0%, 100%);
     font-family: 'josefin sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: lighter;
     margin-bottom: 20px;
     display: block;
@@ -768,7 +768,7 @@ nav .nav-link a{
 }
 
 .footer-icons{
-    text-align: center;
+    text-align: right;
     margin-top:20px;
     margin-bottom: 30px;
 }
