@@ -444,11 +444,23 @@ nav .nav-link a{
     background-size: cover;
     color:  hsl(0, 0%, 100%);
     height: auto;
+    position: relative;
     
+}
+main .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(0,0,0,0.5);
+    z-index: 11;
 }
   nav{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 1000;
    
     
 }
@@ -482,12 +494,14 @@ nav .nav-link a{
 }
 .main-content-div{
     margin: 70px 0 40px 0;
+    position: relative;
+    z-index: 1000;
 }
 .main-content{
     
     border: 1px solid hsl(0, 0%, 100%);
     width: 400px;
-    padding: 30px 40px;
+    padding: 60px 40px;
    
 
     
